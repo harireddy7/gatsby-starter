@@ -6,15 +6,20 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "npm run dev",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
     "gatsby": "^3.4.1",
+    "gatsby-plugin-image": "^1.6.0",
+    "gatsby-plugin-sharp": "^3.6.0",
+    "gatsby-source-filesystem": "^3.6.0",
+    "gatsby-transformer-remark": "^4.3.0",
+    "gatsby-transformer-sharp": "^3.6.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
